@@ -1,4 +1,39 @@
 .about{
-    border-radius: 50vh 50vh 0 0;
     background-color: #ECF9FF;
+    padding: 70px 50px;
+}
+
+.heading{
+    color: #05A3AD;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 20px; 
+}
+
+.body{
+    padding: 0 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.text_box{
+    font-family: 'PT Sans', sans-serif;
+    letter-spacing: 0.75px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    text-align: justify;
+}
+
+.image{
+    height: 50vh;
+}
+
+.image img{
+    height: 100%;
+    width: auto;
 }

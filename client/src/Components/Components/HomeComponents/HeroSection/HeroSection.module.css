@@ -1,0 +1,32 @@
+.outer{
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+/* 
+    background-image: url('./college.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+}
+
+.outer h1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'PT Sans', sans-serif;
+    letter-spacing: 0.75px;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.outer h2{
+    text-align: center;
+    color: darkslategrey;
+    font-family: 'PT Sans', sans-serif;
+    letter-spacing: 0.75px;
+    font-weight: 700;
+    font-size: 30px;
+}

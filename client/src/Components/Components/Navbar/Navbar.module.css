@@ -2,14 +2,48 @@
 
 nav{
     height: 10vh;
+    width: 90vw;
     padding: 0 50px;
     box-shadow: 0px 4px 4px 0px #00000040;
     background-color: #ECF9FF;
+    background: linear-gradient(62deg, #23A6D5, #23D5AB);
+    animation: gradient 15s ease infinite; 
+    background-size: 400% 400%;
 
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 30px;
 }
+
+  @-webkit-keyframes gradient{
+    0% {
+      background-position: 0 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+       background-position: 0% 50%;
+    }
+  }
+  @keyframes gradient{
+    0% {
+      background-position: 0 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+       background-position: 0% 50%;
+    }
+  }
+
 
 .image{
     height: 100%;
